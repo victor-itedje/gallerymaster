@@ -5,10 +5,15 @@ body {
     
 }
 
-#profile-picture {
+ #profile-picture {
      display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.first {
+  align-items: center;
+  justify-content: center;
 }
 
 #prof {
@@ -34,6 +39,7 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 text-align: center;
+margin-bottom: 2px;
     
 }
 
@@ -53,7 +59,7 @@ line-height: normal;
    text-align: center;
   display: flex;
   gap: 20px;
-  margin-left: 870px;
+  margin-left: 620px;
   font-size: 20px;
 }
 #one, #two, #three {
@@ -87,9 +93,9 @@ flex-shrink: 0;
 
 .right {
   display: flex;
-  gap: 35px;
+  gap: 33px;
   margin-top: 100px;
-  margin-left: 370px;
+  margin-left: 80px;
 }
 
 #pl1 {
@@ -108,8 +114,8 @@ flex-shrink: 0;
 .right2 {
   display: flex;
   gap: 35px;
-  margin-top: 60px;
-  margin-left: 370px;
+  margin-top: 30px;
+  margin-left: 80px;
   position: absolute;
 }
 
@@ -127,8 +133,8 @@ flex-shrink: 0;
 .right3 {
   display: flex;
   gap: 35px;
-  margin-top: 390px;
-  margin-left: 603px;
+  margin-top: 360px;
+  margin-left: 320px;
 }
 
 #pl5, #pl6 {
@@ -137,6 +143,76 @@ flex-shrink: 0;
 
 }
 
-#pad {
-  margin: 40px auto 300px auto;
+@media screen and (max-width: 375px) {
+  .ph {
+    width: 100%;
+  }
+
+  #prof {
+    width: 101.759px;
+height: 101.759px;
+flex-shrink: 0;
+  }
+
+  #follow {
+flex-shrink: 0;
+margin-left: 75px ;
+width: 50px;
+  }
+
+  #one, #two, #three {
+    width: 45px;
+    height: 40px;
+    flex-shrink: 0;
+    padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .number1, .number2, .number3 {
+    font-size: 10px;
+  }
+
+  #follower1, #follower2, #follower3 {
+    font-size: 1px;
+  }
+
+  #pl1, #pl5, #pl6 {
+    width: 109.322px;
+height: 109.519px;
+flex-shrink: 0;
+  }
+
+  #pl2, #pl3 {
+    width: 205px;
+height: 109.519px;
+flex-shrink: 0;
+  }
+
+  #pl4 {
+    width: 108.591px;
+height: 230.76px;
+flex-shrink: 0;
+  }
+
+  .right {
+    margin-left: -230px;
+    gap: 20px;
+    margin-top: 40px;
+    
+  }
+
+  #prof {
+    width: 70px;
+    height: 70px;
+  }
+
+  #name {
+    font-size: 12px;
+  }
+
+  #location {
+    font-size: 8px;
+    margin-top: 1px;
+  }
 }
