@@ -1,4 +1,4 @@
-body{
+body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -6,14 +6,14 @@ body{
   justify-content: center;
 }
 
-.first{
+.first {
   width: 100%;
   max-width: 960px;
- display: flex;
- justify-content: center;
- flex-direction: column;
- align-items: center;
- padding: 41px 12px 140px 12px; 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 41px 12px 140px 12px;
 }
 
 #profile-picture {
@@ -21,7 +21,6 @@ body{
   height: 156px;
   border-radius: 16px;
   overflow: hidden;
-  margin-bottom: 16px;
   flex-shrink: 0;
 }
 
@@ -32,24 +31,24 @@ body{
 
 #name {
   color: #4E5150;
-font-family: Montserrat;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-bottom: 8px;
-text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 #location {
   color: #A9A9A9;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-bottom: 16px;
-text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16px;
+  text-align: center;
 }
 
 #follow {
@@ -68,24 +67,24 @@ text-align: center;
 
 .number1 {
   color: #4E5150;
-text-align: center;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-top: 14px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 14px;
 }
 
 .followers {
-color: var(--Gray-4, #BDBDBD);
-text-align: center;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-top: 3.1px;
+  color: var(--Gray-4, #BDBDBD);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 3.1px;
 }
 
 .pictures {
@@ -93,16 +92,18 @@ margin-top: 3.1px;
   height: 100%;
 }
 
- #right1 {
+#right1 {
   width: 100%;
   display: flex;
   gap: 32px;
   margin-top: 20px;
 }
 
-#pl1, #pl5, #pl6 {
+#pl1,
+#pl5,
+#pl6 {
   width: 299px;
-height: 299px;
+  height: 299px;
 }
 
 #vase {
@@ -147,14 +148,15 @@ height: 299px;
   background-color: #C4C4C4;
 }
 
-#pl2, #pl3 {
+#pl2,
+#pl3 {
   width: 629px;
-height: 299px;
+  height: 299px;
 }
 
 #pl4 {
   width: 297px;
-height: 630px;
+  height: 630px;
 }
 
 #right2 {
@@ -171,71 +173,69 @@ height: 630px;
   margin-top: -310px;
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   #profile-picture {
-    flex-shrink: 0;
+    width: 102px;
+    height: 102px;
   }
 
   #name {
     font-size: 14px;
-    margin-bottom: 4px;
   }
 
   #location {
-    margin-bottom: 12px;
     font-size: 10px;
   }
 
   #follow {
-    gap: 12px;
-    font-size: 10px;
+    gap: 13px;
   }
 
   #follow .row-items {
     width: 78px;
     height: 52px;
-    flex-shrink: 0;
-    text-align: center;
   }
 
-  .number1 {
-    font-size: 12px;
-    margin-top: 10px;
-  }
-
+  .number1,
   .followers {
     font-size: 12px;
-    margin-bottom: 6px;
   }
 
-  #pl1, #pl5, #pl6 {
-      width: 109px;
-      height: 110px;
-      flex-shrink: 0;
+  #pl1,
+  #pl5,
+  #pl6 {
+    width: 109px;
+    height: 110px;
+    flex-shrink: 0;
   }
 
+  #pl2,
+  #pl3 {
+    width: 230px;
+    height: 110px;
+    flex-shrink: 0;
+  }
 
-    #pl2, #pl3 {
-      width: 230px;
-      height: 110px;
-      flex-shrink: 0;
-    }
+  #pl4 {
+    width: 109px;
+    height: 231px;
+    flex-shrink: 0;
+  }
 
-    #pl4 {
-      width: 109px;
-      height: 231px;
-      flex-shrink: 0;
-    }
-
-  #vase, #plant, #table, #couch, #bath {
+  #vase,
+  #plant,
+  #table,
+  #couch,
+  #bath {
     width: 100%;
     height: 100%;
   }
-  
+
   #lamp {
     width: 100%;
     height: 100%;
   }
+
   #right1 {
     gap: 11.7px;
     margin-top: 39px;
